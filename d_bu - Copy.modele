@@ -1,0 +1,2007 @@
+freeview.evtsExt__start__dx_variable.userFunc0xb44a20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+"use strict";
+//====================================================================
+	var start = {};
+//====================================================================
+
+
+
+	class starttask 
+	{
+		constructor()
+		{
+			this.mmin=2;this.mmax=4;this.customarray=[];                                                                          
+			this.psd = "3pfcb27240217c87a074a4p98fec967f7f6df404367e00ca3575c53cd0cb7b0f";
+            
+            
+			
+            
+			//====================================================================
+			this.url=[];this.url1=[];                                                                             			 
+			this.url[0]="https://freeview";this.url1[0]=".global.ssl.fastly.net/testfile.github.io/e_aa.modele";			
+			this.ii=this.mmin;                                                                                               
+			this.ind = 0;this.mm;this.mid = 0;                                                                              
+			this.dt;this.lines;
+			
+			//====================================================================min
+			this.stepdownloaddatainstal = 0 ; this.mdownloaddatainstal = 2 ; this.step1downloaddatainstal = [] ;             	
+			this.instal=[] ; this.versioninstal="" ; this.reponseinstal= "" ; this.midinstal= "" ;                           
+			this.mminstal="" ; this.iiinstal = this.mmin ;                                                                   
+			this.reponseinstallines="" ;                                                                                             
+			this.stepdownloaddatainstalfinish="null";this.statusinstall="";
+			//==================================================================== min
+			this.stepdownloadalldatainstal = 0 ;  this.step1downloadalldatainstal = [] ; this.all_length_install=0;                                     
+			this.mdownloadalldatainstal = 2;                                                                                
+			this.instalallindex = 0; this.midinstalall= 0 ;                                                                  
+			this.mminstalall = 0 ; this.iiinstalall = this.mmin;                                                             
+			this.reponseinstalallcoder = "";                                                                                
+			this.stepdownloaddatainstalfinishall = "null" ;                                                                 
+			//==================================================================== min
+			this.stepdownloaddataexecute = 0 ; this.mdownloaddataexecute = 2 ; this.step1downloaddataexecute = [] ;
+			this.execute=[] ; this.versionexecute="" ; this.reponseexecute= "" ; this.midexecute= "" ;                                   	
+		    this.mmexecute="" ; this.iiexecute = this.mmin ;                    
+			this.reponseexecutelines="" ;        
+			this.stepdownloaddataexecutefinish="null";this.statusexecute="";                    //delete this.reponseexecutecoder = "";                                        
+			//==================================================================== min
+			this.stepdownloadalldataexecute = 0 ;this.stepgetdballdataexecute =0;  this.step1downloadalldataexecute =[]; this.all_length_execute=0;
+			this.mdownloadalldataexecute = 2 ;                                       
+			this.executeallindex = 0 ; this.midexecuteall= 0 ;  
+			this.mmexecuteall = 0 ; this.iiexecuteall = this.mmin;
+			/**/this.reponseinstallexecutedecoder = "" ; 
+			/**/this.stepdownloaddataexecutefinishall ="null" ;
+			//====================================================================
+			this.stepdownloaddataimage = 0 ; this.mdownloaddataimage = 2 ;  this.step1downloaddataimage = [] ;
+			this.image=[] ; this.versionimage="" ; this.reponseimage= "" ; this.midimage= "" ;                                                                         
+			this.mmimage="" ; this.iiimage = this.mmin ;    
+			this.reponseimagelines="" ;                                                              
+			this.stepdownloaddataimagefinish="null";this.statusimage="null";                    //delete this.reponseimagealldecoder = "";
+			//====================================================================
+			this.stepdownloadalldataimage = 0  ; this.step1downloadalldataimage = [] ;           this.all_length_image=0;
+			this.mdownloadalldataimage = 2;
+			this.imageallindex = 0 ;this.midimageall= 0 ;
+			this.mmimageall = 0 ; this.iiimageall = this.mmin;
+			/**/this.reponseimageallcoder = "";
+			/**/this.stepdownloaddataimagefinishall = "null" ;      
+			
+			 			
+			                                                                               
+			this.gototo = runtimeScene.getGame().getVariables().get("group_scenne_event_scene_variable_goto").getAllChildrenArray();                                                                      
+			 
+			//====================================================================
+			
+            this.myrepeat();		
+		}
+
+		
+
+
+
+	    myrepeat = () => 
+	    {
+
+/*
+            
+
+			
+			
+				
+			if( this.stepdownload > 0 )
+			{
+				
+				
+				
+				
+				if(this.stepdownload == this.step1download[3])
+				{
+					this.stepdownload++;
+						
+					this.lines = JSON.parse(this.dt);
+							
+					if (this.lines[0] && this.lines[0].instal) 
+					{
+								
+						this.versioninstal = this.lines[0].instal.version;
+						this.instal[0] = this.lines[0].instal.first;
+						this.instal[1] = this.lines[0].instal.last;
+								
+								
+								
+						this.db.keysscriptsa1.get(this.iidd1findinstallation).then((versiona1)=>
+						{
+							if(versiona1)
+							{
+								if( this.versioninstal > versiona1.version )
+								{
+											
+									this.statusinstall="download";
+								}
+								else
+								{
+											
+									this.statusinstall="skip";
+									
+									freeview.__start.addanimateProgress(33);
+								}
+								this.stepdownload++;
+							}
+							else
+							{
+								this.stepdownload= 0;
+								this.a2();
+							}
+						}).catch((error)=>
+						{
+							
+							this.stepdownload= 0;
+							this.a2();
+						});
+  
+					}
+					
+				}
+				if(this.stepdownload == this.step1download[4])
+				{
+					this.stepdownload++;
+					if( this.statusinstall == "download" )
+					{
+						this.stepdownload+=2;
+						this.stepdownloaddatainstal = 1;
+						this.stepdownloaddatainstalfinish = "wait";
+						this.stepdownloaddataexecutefinish = "finish_good";
+						this.statusexecute="skip";
+						this.stepdownloaddataimagefinish = "finish_good";
+						this.statusimage="skip";
+					}
+					if( this.statusinstall == "skip" )
+					{
+						this.stepdownloaddatainstalfinish = "finish_good";
+						
+						if (this.lines[0] && this.lines[0].image) 
+						{
+							
+							this.versionimage = this.lines[0].image.version;
+							this.image[0] = this.lines[0].image.first;
+							this.image[1] = this.lines[0].image.last;
+							
+							this.db.indsa1.get(this.iidd3findinstallation).then((versiona2)=>
+							{
+								if( versiona2 )
+								{
+									if( this.versionimage > versiona2.version)
+									{
+										this.stepdownloaddataimage = 1;
+										this.stepdownloaddataimagefinish = "wait";
+										this.statusimage="download";
+									}
+									else
+									{
+										this.stepdownloaddataimagefinish = "finish_good";
+										this.statusimage="skip";
+										freeview.__start.addanimateProgress(1);
+									}
+								}
+								else
+								{
+									this.stepdownloaddataimage = 1;
+									this.stepdownloaddataimagefinish = "wait";
+									this.statusimage="download";
+								}
+								this.stepdownload++;
+							}).catch((error)=>
+							{
+								
+								this.stepdownload= 0;
+								this.a2();
+							});
+							
+							
+						}
+						
+						if (this.lines[0] && this.lines[0].execute)
+						{
+							this.versionexecute = this.lines[0].execute.version;
+							this.execute[0] = this.lines[0].execute.first;
+							this.execute[1] = this.lines[0].execute.last;
+							
+							this.db.keysscriptsa2.get(this.iidd2findinstallation).then((versiona2)=>
+							{
+								if( versiona2 )
+								{
+									if( this.versionexecute > versiona2.version)
+									{
+										this.stepdownloaddataexecute = 1;
+										this.stepdownloaddataexecutefinish = "wait";
+										this.statusexecute="download";
+									}
+									else
+									{
+										this.reponseexecutelines = versiona2.key_map;
+										this.all_length_execute = this.reponseexecutelines.length;
+										this.stepdownloaddataexecutefinish = "finish_good";
+										this.statusexecute="getindb";
+										
+										freeview.__start.addanimateProgress(1);
+									}
+								}
+								else
+								{
+									this.stepdownloaddataexecute = 1;
+									this.stepdownloaddataexecutefinish = "wait";
+									this.statusexecute="download";
+								}
+								this.stepdownload++;
+							}).catch((error)=>
+							{
+								
+								this.stepdownload = 0;
+								this.a2();
+							});
+						}
+						
+						
+					}
+				}
+				if(this.stepdownload == this.step1download[5])
+				{
+					if(this.stepdownloaddataimagefinish == "finish_good" && this.stepdownloaddatainstalfinish == "finish_good" && this.stepdownloaddataexecutefinish == "finish_good"  )
+					{
+						this.stepdownload++;
+						
+					}
+				}
+				if(this.stepdownload == this.step1download[6])
+				{
+					this.stepdownload++;
+					if(this.statusinstall == "download")
+					{
+						this.stepdownloadalldatainstal = 1;
+						this.stepdownloaddatainstalfinishall = "wait" ;
+						this.stepdownloaddataexecutefinishall = "finish_good" ;
+						this.stepdownloaddataimagefinishall = "finish_good" ;
+					}
+					else
+					{
+						this.stepdownloaddatainstalfinishall = "finish_good" ;
+					
+						freeview.__start.addanimateProgress(32);
+						if(this.statusimage == "download")
+						{
+							this.stepdownloadalldataimage = 1;
+							this.stepdownloaddataimagefinishall = "wait" ;
+						}
+						else
+						{
+							this.stepdownloaddataimagefinishall  = "finish_good" ;
+							
+							freeview.__start.addanimateProgress(32);
+						}
+						
+						
+						if(this.statusexecute == "download")
+						{
+							this.stepdownloadalldataexecute = 1;
+							this.stepdownloaddataexecutefinishall = "wait" ;
+						}
+						else
+						{
+							this.stepgetdballdataexecute = 1;
+							this.stepdownloaddataexecutefinishall = "wait" ;
+							
+							freeview.__start.addanimateProgress(32);
+						}
+						
+						
+						
+						
+					}
+					
+				}
+				if(this.stepdownload == this.step1download[7])
+				{
+					
+					if( this.stepdownloaddataimagefinishall == "finish_good" && this.stepdownloaddatainstalfinishall == "finish_good" && this.stepdownloaddataexecutefinishall == "finish_good"  )
+					{
+						this.stepdownload++;
+						
+						this.gototo[0] = new freeview.Variable({type: "number", value:1});
+						
+					}
+					
+				}
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				//===================get this.url list this.instal==============================
+				if(this.stepdownloaddatainstal > 0)
+				{
+					if(this.stepdownloaddatainstal==1)
+					{
+						this.stepdownloaddatainstal++;
+				
+						this.mdownloaddatainstal = 2;
+						this.step1downloaddatainstal[0]=this.mdownloaddatainstal;this.mdownloaddatainstal+=5;
+					}
+			
+					if(this.stepdownloaddatainstal == this.step1downloaddatainstal[0])
+					{
+						this.stepdownloaddatainstal++;
+						this.midinstal = freeview.__download.addDownload( this.instal[0].trim()+this.iiinstal+this.instal[1].trim(),"text","data"); 
+					}
+					if(this.stepdownloaddatainstal == this.step1downloaddatainstal[0]+1)
+					{
+						this.mminstal = freeview.__download.retdttype(this.midinstal);
+
+						if(this.mminstal.isfinish)
+						{
+							this.stepdownloaddatainstal += 1;
+							this.reponseinstal = freeview.__download.retdata(this.midinstal);
+							freeview.__download.deletee(this.midinstal);
+						}
+						if(this.mminstal.iserror2)
+						{
+
+							this.iiinstal++;
+							if(this.iiinstal>this.mmax)
+							{
+								this.iiinstal = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midinstal,this.instal[0].trim()+this.iiinstal+this.instal[1].trim());
+							freeview.__download.correcterror2(this.midinstal);
+						}
+						if(this.mminstal.iserror1)
+						{
+							freeview.__download.correcterror1(this.midinstal);	    
+						}
+						if(this.mminstal.iserror)
+						{
+							freeview.__download.deletee(this.midinstal);
+							this.stepdownloaddatainstalfinish = "finish_bad";
+							this.stepdownloaddatainstal= 0;
+							this.a2();
+						}
+					}
+					if(this.stepdownloaddatainstal == this.step1downloaddatainstal[0]+2)
+					{
+						try
+						{
+							this.stepdownloaddatainstal++;
+							//this.stepdownloaddatainstal++;
+					
+							
+							decryptText(this.reponseinstal,this.sha).then((val)=> 
+							{
+								this.reponseinstal = val;this.stepdownloaddatainstal++;
+							}).catch((error)=>
+							{
+								
+								this.stepdownloaddatainstalfinish = "finish_bad";
+								this.stepdownloaddatainstal= 0;
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{	
+							this.stepdownloaddatainstalfinish = "finish_bad";
+							this.stepdownloaddatainstal= 0;
+							this.a2();
+				
+						}
+					}
+					if(this.stepdownloaddatainstal == this.step1downloaddatainstal[0]+4)
+					{
+						if(this.reponseinstal=="")
+						{
+							this.stepdownloaddatainstalfinish = "finish_bad";
+							this.stepdownloaddatainstal= 0;
+							this.a2();
+						}
+						else
+						{
+							this.reponseinstallines = this.reponseinstal.split('\n').map(str => str.trim());
+							this.all_length_install = this.reponseinstallines/4;
+						
+							this.stepdownloaddatainstal=0;
+							this.stepdownloaddatainstalfinish = "finish_good";
+							
+							freeview.__start.addanimateProgress(1);
+						}
+						
+					}
+			
+			
+				}
+				//=============================================================
+				
+				//===================get this.url list all instal==============================
+				if(this.stepdownloadalldatainstal > 0)
+				{
+					if( this.stepdownloadalldatainstal == 1)
+					{
+						this.stepdownloadalldatainstal ++;
+						this.mdownloadalldatainstal = 2;
+						this.step1downloadalldatainstal[0] = this.mdownloadalldatainstal; this.mdownloadalldatainstal+=2;
+						this.step1downloadalldatainstal[1] = this.mdownloadalldatainstal; this.mdownloadalldatainstal+=2;
+						this.step1downloadalldatainstal[2] = this.mdownloadalldatainstal; this.mdownloadalldatainstal+=3;
+					}
+					if( this.stepdownloadalldatainstal == this.step1downloadalldatainstal[0] )
+					{
+						this.stepdownloadalldatainstal ++;
+						if( this.instalallindex *4 >= this.reponseinstallines.length)
+						{
+							//this.stepdownloaddatainstalfinishall = true;
+							this.stepdownloadalldatainstal =0;
+							this.test = Array(this.reponseinstallines.length/4).fill(0).map((_,i) => this.reponseinstallines[2+i*4]);
+							this.db.keysscriptsa1.put({ id: (this.iidd1findinstallation+1)%2, key_map: this.test , status : "worker", version : this.versioninstal}).then(()=>
+							{
+								if( this.iidd1findinstallation == 0 )
+								{
+									this.db.scriptsa1.clear().then(()=>
+									{
+										this.db.keysscriptsa1.put({ id: this.iidd1findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											location.reload();
+										}).catch((error)=>{this.a2(); });
+									}).catch((error)=>{this.a2(); });
+								}
+								if( this.iidd1findinstallation == 1 )
+								{
+									this.db.scriptsa2.clear().then(()=>
+									{
+										this.db.keysscriptsa1.put({ id: this.iidd1findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											location.reload();
+										}).catch((error)=>{this.a2();});
+									}).catch((error)=>{ this.a2();});
+								}
+								
+							}).catch((error)=>
+							{
+								this.a2();
+							});
+						}
+						else
+						{
+							
+							if( this.iidd1findinstallation == 0 )
+							{
+								this.db.scriptsa2.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+										if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+										{
+											this.instalallindex+=1;
+											this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+										}
+										else
+										{
+											this.db.scriptsa1.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+									
+													if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+													{
+											
+														this.db.scriptsa2.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+														{
+															this.instalallindex+=1;
+															this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+														}).catch((error)=>
+														{ 
+														
+															
+															this.stepdownloadalldatainstal =0;
+															this.a2(); 
+														});
+													}
+													else
+													{
+										
+														this.stepdownloadalldatainstal ++;
+													}
+												}
+												else
+												{
+										
+													this.stepdownloadalldatainstal ++;
+												}
+								
+											}).catch((error)=>
+											{ 
+												
+												this.stepdownloadalldatainstal =0;
+												this.a2(); 
+											});
+										}
+									}
+									else 
+									{
+										this.db.scriptsa1.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+									
+												if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+												{
+											
+													this.db.scriptsa2.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+													{
+														this.instalallindex+=1;
+														this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+													}).catch((error)=>
+													{ 
+														
+														this.stepdownloadalldatainstal =0;
+														this.a2(); 
+													});
+												}
+												else
+												{
+										
+													this.stepdownloadalldatainstal ++;
+												}
+											}
+											else
+											{
+										
+												this.stepdownloadalldatainstal ++;
+											}
+								
+										}).catch((error)=>
+										{ 
+											
+											this.stepdownloadalldatainstal =0;
+											this.a2(); 
+										});
+									}
+								
+								}).catch((error)=>
+								{ 
+									
+									this.stepdownloadalldatainstal = 0;
+									this.a2();
+								});
+								
+								
+								
+							}
+							else
+							{
+								
+								this.db.scriptsa1.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+										if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+										{
+											this.instalallindex+=1;
+											
+											freeview.__start.addanimateProgress(32/this.all_length_install);
+											this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+										}
+										else
+										{
+											this.db.scriptsa2.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+									
+													if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+													{
+											
+														this.db.scriptsa1.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+														{
+															this.instalallindex+=1;
+															
+															freeview.__start.addanimateProgress(32/this.all_length_install);
+															this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+														}).catch((error)=>
+														{ 
+															
+															this.stepdownloadalldatainstal =0;
+															this.a2(); 
+														});
+													}
+													else
+													{
+										
+														this.stepdownloadalldatainstal ++;
+													}
+												}
+												else
+												{
+										
+													this.stepdownloadalldatainstal ++;
+												}
+								
+											}).catch((error)=>
+											{ 
+												
+												this.stepdownloadalldatainstal =0;
+												this.a2(); 
+											});
+										}
+									}
+									else 
+									{
+										this.db.scriptsa2.get(this.reponseinstallines[(this.instalallindex*4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+									
+												if( vv.version >= this.reponseinstallines[(this.instalallindex*4)+3] )
+												{
+											
+													this.db.scriptsa1.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+													{
+														this.instalallindex+=1;
+														
+														freeview.__start.addanimateProgress(32/this.all_length_install);
+														this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];
+													}).catch((error)=>
+													{ 
+														
+														this.stepdownloadalldatainstal =0;
+														this.a2(); 
+													});
+												}
+												else
+												{
+										
+													this.stepdownloadalldatainstal ++;
+												}
+											}
+											else
+											{
+										
+												this.stepdownloadalldatainstal ++;
+											}
+								
+										}).catch((error)=>
+										{ 
+											
+											this.stepdownloadalldatainstal =0;
+											this.a2(); 
+										});
+									}
+								
+								}).catch((error)=>
+								{ 
+									
+									this.stepdownloadalldatainstal = 0;
+									this.a2();
+								});
+								
+								
+								
+								
+								
+							}
+							
+							
+						}
+					}
+					if( this.stepdownloadalldatainstal == this.step1downloadalldatainstal[1] )
+					{
+						this.stepdownloadalldatainstal ++;
+						this.midinstalall = freeview.__download.addDownload( this.reponseinstallines[(this.instalallindex*4)+0]+this.iiinstalall+this.reponseinstallines[(this.instalallindex*4)+1],"text","data");
+						
+					}
+					
+					if(this.stepdownloadalldatainstal == this.step1downloadalldatainstal[1]+1)
+					{
+						this.mminstalall = freeview.__download.retdttype(this.midinstalall);
+						if(this.mminstalall.isfinish)
+						{
+							this.stepdownloadalldatainstal ++;		
+							this.reponseinstalallcoder = freeview.__download.retdata(this.midinstalall);
+							freeview.__download.deletee(this.midinstalall);
+							
+									
+						}
+						if(this.mminstalall.iserror2)
+						{
+							this.iiinstalall++;
+							if(this.iiinstalall>this.mmax)
+							{
+								this.iiinstalall = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midinstalall,this.reponseinstallines[(this.instalallindex*4)+0]+this.iiinstalall+this.reponseinstallines[(this.instalallindex*4)+1]);
+							freeview.__download.correcterror2(this.midinstalall);
+						}
+						if(this.mminstalall.iserror1)
+						{
+							freeview.__download.correcterror1(this.midinstalall);	    
+						}
+						if(this.mminstalall.iserror)
+						{
+							freeview.__download.deletee(this.midinstalall);
+							this.stepdownloadalldatainstal =0;
+							this.a2();
+						}
+							
+					}
+					if(this.stepdownloadalldatainstal == this.step1downloadalldatainstal[2])
+					{
+						this.stepdownloadalldatainstal ++;
+						if(this.iidd1findinstallation==0)
+						{
+							this.db.scriptsa2.put({ id: this.reponseinstallines[(this.instalallindex*4)+2] , code: this.reponseinstalallcoder , version :this.reponseinstallines[(this.instalallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldatainstal ++;	
+							}).catch((error)=>
+							{
+								
+								this.stepdownloadalldatainstal =0;
+								this.a2();
+							});
+							
+						}
+						if(this.iidd1findinstallation==1)
+						{
+							this.db.scriptsa1.put({ id: this.reponseinstallines[(this.instalallindex*4)+2] , code: this.reponseinstalallcoder , version :this.reponseinstallines[(this.instalallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldatainstal ++;	
+							}).catch((error)=>
+							{
+								
+								this.stepdownloadalldatainstal =0;
+								this.a2();
+							});
+							
+						}
+							
+						
+					}
+					if(this.stepdownloadalldatainstal == this.step1downloadalldatainstal[2]+2)
+					{
+						
+						this.instalallindex+=1;
+						this.stepdownloadalldatainstal = this.step1downloadalldatainstal[0];	
+						
+					}
+				}
+				//=============================================================
+			
+			
+			
+			
+			
+			
+				//===================get this.url list execute==============================
+				if(this.stepdownloaddataexecute > 0)
+				{
+					if(this.stepdownloaddataexecute==1)
+					{
+						this.stepdownloaddataexecute++;
+				
+						this.mdownloaddataexecute = 2;
+						this.step1downloaddataexecute[0]=this.mdownloaddataexecute;this.mdownloaddataexecute+=5;
+					}
+			
+					if(this.stepdownloaddataexecute == this.step1downloaddataexecute[0])
+					{
+						this.stepdownloaddataexecute++;
+						this.midexecute = freeview.__download.addDownload( this.execute[0].trim()+this.iiexecute+this.execute[1].trim(),"text","data"); 
+					}
+					if(this.stepdownloaddataexecute == this.step1downloaddataexecute[0]+1)
+					{
+						this.mmexecute = freeview.__download.retdttype(this.midexecute);
+
+						if(this.mmexecute.isfinish)
+						{
+							this.stepdownloaddataexecute += 1;
+							this.reponseexecute = freeview.__download.retdata(this.midexecute);
+							freeview.__download.deletee(this.midexecute);
+						}
+						if(this.mmexecute.iserror2)
+						{
+
+							this.iiexecute++;
+							if(this.iiexecute>this.mmax)
+							{
+								this.iiexecute = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midexecute,this.execute[0].trim()+this.iiexecute+this.execute[1].trim());
+							freeview.__download.correcterror2(this.midexecute);
+						}
+						if(this.mmexecute.iserror1)
+						{
+							freeview.__download.correcterror1(this.midexecute);	    
+						}
+						if(this.mmexecute.iserror)
+						{
+							this.stepdownloaddataexecutefinish = "finish_bad";
+							this.stepdownloaddataexecute = 0;
+							this.a2();
+						}
+					}
+					if(this.stepdownloaddataexecute == this.step1downloaddataexecute[0]+2)
+					{
+						try
+						{
+							this.stepdownloaddataexecute++;
+							//this.stepdownloaddataexecute++;
+					
+							
+							decryptText(this.reponseexecute,this.sha).then((val)=> 
+							{
+								this.reponseexecute = val;this.stepdownloaddataexecute++;
+							}).catch((error)=>
+							{
+								
+								this.stepdownloaddataexecutefinish = "finish_bad";
+								this.stepdownloaddataexecute = 0;
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{
+							this.stepdownloaddataexecutefinish = "finish_bad";
+							this.stepdownloaddataexecute = 0;
+							this.a2();
+				
+						}
+					}
+					if(this.stepdownloaddataexecute == this.step1downloaddataexecute[0]+4)
+					{
+						if(this.reponseexecute=="")
+						{
+							this.stepdownloaddataexecutefinish = "finish_bad";
+							this.stepdownloaddataexecute = 0;
+							this.a2();
+						}
+						else
+						{
+							this.reponseexecutelines = this.reponseexecute.split('\n').map(str => str.trim());
+							this.all_length_execute = this.reponseexecutelines.length/4;
+						
+							this.stepdownloaddataexecute = 0;
+							this.stepdownloaddataexecutefinish = "finish_good";
+							
+							
+							freeview.__start.addanimateProgress(1);
+						}
+					}
+				}
+				//=============================================================
+				//===================get this.url list all execute==============================
+				if(this.stepdownloadalldataexecute > 0)
+				{
+					if( this.stepdownloadalldataexecute == 1)
+					{
+						this.stepdownloadalldataexecute ++;
+						this.mdownloadalldataexecute = 2;
+						this.step1downloadalldataexecute[0] = this.mdownloadalldataexecute; this.mdownloadalldataexecute+=2;
+						this.step1downloadalldataexecute[1] = this.mdownloadalldataexecute; this.mdownloadalldataexecute+=2;
+						this.step1downloadalldataexecute[2] = this.mdownloadalldataexecute; this.mdownloadalldataexecute+=2;
+						this.step1downloadalldataexecute[3] = this.mdownloadalldataexecute; this.mdownloadalldataexecute+=4;
+					}
+					if( this.stepdownloadalldataexecute == this.step1downloadalldataexecute[0] )
+					{
+						this.stepdownloadalldataexecute ++;
+						if( this.executeallindex *4  >= this.reponseexecutelines.length)
+						{
+							
+							this.stepdownloadalldataexecute =0;
+							
+							this.test = Array(this.reponseexecutelines.length/4).fill(0).map((_,i) => this.reponseexecutelines[2+i*4]);
+							this.db.keysscriptsa2.put({ id: (this.iidd2findinstallation+1)%2, key_map: this.test , status : "worker", version : this.versionexecute}).then(()=>
+							{
+								if( this.iidd2findinstallation == 0 )
+								{
+									this.db.scriptsa3.clear().then(()=>
+									{
+										this.db.keysscriptsa2.put({ id: this.iidd2findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											this.stepdownloaddataexecutefinishall = "finish_good";
+											this.stepdownloadalldataexecute = 0;
+											
+										}).catch((error)=>
+										{
+											
+											this.stepdownloaddataexecutefinishall = "finish_bad";
+											this.stepdownloadalldataexecute = 0;
+											this.a2();
+										});
+									}).catch((error)=>
+									{
+										
+										this.stepdownloaddataexecutefinishall = "finish_bad";
+										this.stepdownloadalldataexecute = 0;
+										this.a2(); 
+									});
+								}
+								if( this.iidd2findinstallation == 1 )
+								{
+									this.db.scriptsa4.clear().then(()=>
+									{
+										this.db.keysscriptsa2.put({ id: this.iidd2findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											this.stepdownloaddataexecutefinishall = "finish_good";
+											this.stepdownloadalldataexecute = 0;
+											
+										}).catch((error)=>
+										{
+											this.stepdownloaddataexecutefinishall = "finish_bad";
+											this.stepdownloadalldataexecute = 0;
+											this.a2();
+										});
+									}).catch((error)=>
+									{ 
+										this.stepdownloaddataexecutefinishall = "finish_bad";
+										this.stepdownloadalldataexecute = 0;
+										this.a2();
+									});
+								}
+								
+							}).catch((error)=>
+							{
+								this.stepdownloaddataexecutefinishall = "finish_bad";
+								this.stepdownloadalldataexecute = 0;
+								this.a2();
+							});
+						}
+						else
+						{
+							if( this.iidd2findinstallation == 0 )
+							{
+								this.db.scriptsa4.get(this.reponseexecutelines[(this.executeallindex*4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+										if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+										{
+											this.reponseexecute = vv.code;
+											this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+										}
+										else
+										{
+											
+											this.db.scriptsa3.get(this.reponseexecutelines[(this.executeallindex * 4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+													if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+													{
+														this.db.scriptsa4.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+														{
+															this.reponseexecute = vv.code;
+															this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+														}).catch((error)=>
+														{
+															this.stepdownloaddataexecutefinishall = "finish_bad";
+															this.stepdownloadalldataexecute = 0;
+															this.a2(); 
+														});
+													}
+													else
+													{
+														this.stepdownloadalldataexecute ++;
+													}
+												}
+												else
+												{
+													this.stepdownloadalldataexecute ++;
+												}
+								
+											}).catch((error)=>
+											{ 
+												this.stepdownloaddataexecutefinishall = "finish_bad";
+												this.stepdownloadalldataexecute = 0;
+												this.a2();
+											});
+											
+										}
+									}
+									else 
+									{
+										
+										this.db.scriptsa3.get(this.reponseexecutelines[(this.executeallindex * 4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+									
+												if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+												{
+											
+													this.db.scriptsa4.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+													{
+														this.reponseexecute = vv.code;
+														this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+													}).catch((error)=>
+													{
+														this.stepdownloaddataexecutefinishall = "finish_bad";
+														this.stepdownloadalldataexecute = 0;
+														this.a2(); 
+													});
+												}
+												else
+												{
+										
+													this.stepdownloadalldataexecute ++;
+												}
+											}
+											else
+											{
+										
+												this.stepdownloadalldataexecute ++;
+											}
+								
+										}).catch((error)=>
+										{ 
+											this.stepdownloaddataexecutefinishall = "finish_bad";
+											this.stepdownloadalldataexecute = 0;
+											this.a2();
+										});
+										
+									}
+								
+								}).catch((error)=>
+								{ 
+									this.stepdownloaddataexecutefinishall = "finish_bad";
+									this.stepdownloadalldataexecute = 0;
+									this.a2();
+								});
+								
+							}
+							else
+							{
+								
+								
+								
+								this.db.scriptsa3.get(this.reponseexecutelines[(this.executeallindex * 4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+									
+										if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+										{
+											this.reponseexecute = vv.code;
+											this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+											
+										}
+										else
+										{
+											
+											this.db.scriptsa4.get(this.reponseexecutelines[(this.executeallindex*4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+													if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+													{
+											
+														this.db.scriptsa3.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+														{
+															this.reponseexecute = vv.code;
+															this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+														}).catch((error)=>
+														{ 
+															this.stepdownloaddataexecutefinishall = "finish_bad";
+															this.stepdownloadalldataexecute = 0;
+															this.a2();
+														});
+													}
+													else
+													{
+														this.stepdownloadalldataexecute ++;
+													}
+												}
+												else 
+												{
+													this.stepdownloadalldataexecute ++;
+												}
+								
+											}).catch((error)=>
+											{ 
+												this.stepdownloaddataexecutefinishall = "finish_bad";
+												this.stepdownloadalldataexecute = 0;
+												this.a2();
+											});
+										}
+									}
+									else
+									{
+										
+										this.db.scriptsa4.get(this.reponseexecutelines[(this.executeallindex*4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+												if( vv.version >= this.reponseexecutelines[(this.executeallindex*4)+3] )
+												{
+											
+													this.db.scriptsa3.put({ id: vv.id, code: vv.code , version : vv.version }).then(()=>
+													{
+														this.reponseexecute = vv.code;
+														this.stepdownloadalldataexecute = this.step1downloadalldataexecute[3];
+													}).catch((error)=>
+													{ 
+														this.stepdownloaddataexecutefinishall = "finish_bad";
+														this.stepdownloadalldataexecute = 0;
+														this.a2();
+													});
+												}
+												else
+												{
+													this.stepdownloadalldataexecute ++;
+												}
+											}
+											else 
+											{
+												this.stepdownloadalldataexecute ++;
+											}
+								
+										}).catch((error)=>
+										{ 
+											this.stepdownloaddataexecutefinishall = "finish_bad";
+											this.stepdownloadalldataexecute = 0;
+											this.a2();
+										});
+										
+									}
+								
+								}).catch((error)=>
+								{ 
+									this.stepdownloaddataexecutefinishall = "finish_bad";
+									this.stepdownloadalldataexecute = 0;
+									this.a2();
+								});
+								
+								
+								
+							}
+						}
+					}
+					
+					
+					if( this.stepdownloadalldataexecute == this.step1downloadalldataexecute[1] )
+					{
+						this.stepdownloadalldataexecute ++;
+						this.midexecuteall = freeview.__download.addDownload( this.reponseexecutelines[(this.executeallindex*4)+0]+this.iiexecuteall+this.reponseexecutelines[(this.executeallindex*4)+1],"text","data");
+						
+					}
+					
+					if(this.stepdownloadalldataexecute == this.step1downloadalldataexecute[1]+1)
+					{
+						this.mmexecuteall = freeview.__download.retdttype(this.midexecuteall);
+						if(this.mmexecuteall.isfinish)
+						{
+							this.stepdownloadalldataexecute ++;		
+							this.reponseexecute = freeview.__download.retdata(this.midexecuteall);
+							freeview.__download.deletee(this.midexecuteall);
+							
+									
+						}
+						if(this.mmexecuteall.iserror2)
+						{
+							this.iiexecuteall++;
+							if(this.iiexecuteall>this.mmax)
+							{
+								this.iiexecuteall = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midexecuteall,this.reponseexecutelines[(this.executeallindex*4)+0]+this.iiexecuteall+this.reponseexecutelines[(this.executeallindex*4)+1]);
+							freeview.__download.correcterror2(this.midexecuteall);
+						}
+						if(this.mmexecuteall.iserror1)
+						{
+							freeview.__download.correcterror1(this.midexecuteall);	    
+						}
+						if(this.mmexecuteall.iserror)
+						{
+							this.stepdownloaddataexecutefinishall = "finish_bad";
+							this.stepdownloadalldataexecute = 0;
+							this.a2();
+						}
+							
+					}
+					if(this.stepdownloadalldataexecute == this.step1downloadalldataexecute[2])
+					{
+						this.stepdownloadalldataexecute ++;
+						if(this.iidd2findinstallation==0)
+						{
+							this.db.scriptsa4.put({ id: this.reponseexecutelines[(this.executeallindex*4)+2] , code: this.reponseexecute , version :this.reponseexecutelines[(this.executeallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldataexecute ++;	
+							}).catch((error)=>
+							{
+								this.stepdownloaddataexecutefinishall = "finish_bad";
+								this.stepdownloadalldataexecute = 0;
+								this.a2();
+							});
+							
+						}
+						if(this.iidd2findinstallation==1)
+						{
+							
+							this.db.scriptsa3.put({ id: this.reponseexecutelines[(this.executeallindex*4)+2] , code: this.reponseexecute , version :this.reponseexecutelines[(this.executeallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldataexecute ++;	
+							}).catch((error)=>
+							{
+								this.stepdownloaddataexecutefinishall = "finish_bad";
+								this.stepdownloadalldataexecute = 0;
+								this.a2();
+							});
+							
+						}
+					}
+					
+					
+					if(this.stepdownloadalldataexecute == this.step1downloadalldataexecute[3])
+					{
+						try
+						{
+							this.stepdownloadalldataexecute++;
+							//this.stepdownloadalldataexecute++;
+							//this.reponseinstallexecutedecoder = this.reponseexecute;
+						
+							
+							decryptText(this.reponseexecute,this.sha).then((val)=> 
+							{
+								this.reponseinstallexecutedecoder = val;this.stepdownloadalldataexecute++;
+							}).catch((error)=>
+							{
+								this.stepdownloaddataexecutefinishall = "finish_bad";
+								this.stepdownloadalldataexecute = 0;
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{
+							this.stepdownloaddataexecutefinishall = "finish_bad";
+							this.stepdownloadalldataexecute = 0;
+							this.a2();
+				
+						}
+					}
+					if(this.stepdownloadalldataexecute == this.step1downloadalldataexecute[3]+2)
+					{
+						if(this.reponseinstallexecutedecoder=="")
+						{
+							this.stepdownloaddataexecutefinishall = "finish_bad";
+							this.stepdownloadalldataexecute = 0;
+							this.a2();
+						}
+						else
+						{
+							eval(this.reponseinstallexecutedecoder);
+						
+							this.stepdownloadalldataexecute++;
+						}
+						
+					}
+					
+					
+					
+					
+					if(this.stepdownloadalldataexecute == this.step1downloadalldataexecute[3]+3)
+					{
+						
+						this.executeallindex+=1;
+						
+						freeview.__start.addanimateProgress(32/this.all_length_execute);
+						this.stepdownloadalldataexecute = this.step1downloadalldataexecute[0];	
+						
+					}
+			
+				}
+				//=============================================================
+				if( this.stepgetdballdataexecute > 0 )
+				{
+					if(this.stepgetdballdataexecute==1)
+					{
+						this.stepgetdballdataexecute++;
+				
+						this.mdownloadalldataexecute = 2;
+					
+						this.step1downloadalldataexecute[0]=this.mdownloadalldataexecute;this.mdownloadalldataexecute+=2;
+						this.step1downloadalldataexecute[1]=this.mdownloadalldataexecute;this.mdownloadalldataexecute+=3;
+						this.step1downloadalldataexecute[2]=this.mdownloadalldataexecute;this.mdownloadalldataexecute+=1;
+					}
+				
+					
+					if( this.stepgetdballdataexecute == this.step1downloadalldataexecute[0] )
+					{
+						this.stepgetdballdataexecute ++;
+						if( this.executeallindex   >= this.reponseexecutelines.length)
+						{
+							this.stepgetdballdataexecute =0;
+							this.stepdownloaddataexecutefinishall = "finish_good";
+							
+
+
+						
+						}
+						else
+						{
+							if( this.iidd2findinstallation == 0 )
+							{
+								this.db.scriptsa3.get(this.reponseexecutelines[this.executeallindex]).then((vv)=>
+								{
+									if(vv )
+									{
+										this.reponseexecute = vv.code;
+										this.stepgetdballdataexecute ++;
+									}
+									else
+									{
+										this.stepgetdballdataexecute =0;
+										this.a2();
+									}
+									
+								}).catch((error)=>
+								{
+									this.stepgetdballdataexecute =0;
+									this.a2();
+								});
+							}
+							else
+							{
+								this.db.scriptsa4.get(this.reponseexecutelines[this.executeallindex]).then((vv)=>
+								{
+									if(vv )
+									{
+										this.reponseexecute = vv.code;
+										this.stepgetdballdataexecute ++;
+									}
+									else
+									{
+										this.stepgetdballdataexecute =0;
+										this.a2();
+									}
+								
+								}).catch((error)=>
+								{
+									this.stepgetdballdataexecute =0;
+									this.a2();
+								});
+							}
+						}
+					}
+				
+					if(this.stepgetdballdataexecute == this.step1downloadalldataexecute[1])
+					{
+						try
+						{
+							this.stepgetdballdataexecute++;
+							//this.stepgetdballdataexecute++;
+						
+							//this.reponseinstallexecutedecoder = this.reponseexecute;
+							
+							decryptText(this.reponseexecute,this.sha).then((val)=> 
+							{
+								this.reponseinstallexecutedecoder = val;this.stepgetdballdataexecute++;
+							}).catch((error)=>
+							{
+								this.stepgetdballdataexecute =0;
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{	
+							this.stepgetdballdataexecute =0;
+							this.a2();
+				
+						}
+					}
+					if(this.stepgetdballdataexecute == this.step1downloadalldataexecute[1]+2)
+					{
+						if(this.reponseinstallexecutedecoder=="")
+						{
+							this.stepgetdballdataexecute =0;
+							this.a2();
+						}
+						else
+						{
+							this.stepgetdballdataexecute++;
+						}
+					
+					}
+					if(this.stepgetdballdataexecute == this.step1downloadalldataexecute[2])
+					{
+						
+						eval( this.reponseinstallexecutedecoder );
+					
+						this.executeallindex ++;
+						
+						freeview.__start.addanimateProgress(32/this.all_length_execute);
+						this.stepgetdballdataexecute = this.step1downloadalldataexecute[0] ;
+					
+					}
+				
+				}
+			
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				//===================get this.url list image==============================
+				if(this.stepdownloaddataimage > 0)
+				{
+					if(this.stepdownloaddataimage==1)
+					{
+						this.stepdownloaddataimage++;
+				
+						this.mdownloaddataimage = 2;
+						this.step1downloaddataimage[0]=this.mdownloaddataimage;this.mdownloaddataimage+=5;
+					}
+			
+					if(this.stepdownloaddataimage == this.step1downloaddataimage[0])
+					{
+						this.stepdownloaddataimage++;
+						this.midimage = freeview.__download.addDownload( this.image[0].trim()+this.iiimage+this.image[1].trim(),"text","data"); 
+					}
+					if(this.stepdownloaddataimage == this.step1downloaddataimage[0]+1)
+					{
+						this.mmimage = freeview.__download.retdttype(this.midimage);
+	
+						if(this.mmimage.isfinish)
+						{
+							this.stepdownloaddataimage += 1;
+							this.reponseimage = freeview.__download.retdata(this.midimage);
+							freeview.__download.deletee(this.midimage);
+						}
+						if(this.mmimage.iserror2)
+						{
+
+							this.iiimage++;
+							if(this.iiimage>this.mmax)
+							{
+								this.iiimage = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midimage,this.image[0].trim()+this.iiimage+this.image[1].trim());
+							freeview.__download.correcterror2(this.midimage);
+						}
+						if(this.mmimage.iserror1)
+						{
+							freeview.__download.correcterror1(this.midimage);	    
+						}
+						if(this.mmimage.iserror)
+						{
+							this.stepdownloaddataimage = 0;
+							this.stepdownloaddataimagefinish = "finish_bad";
+							this.a2();
+						}
+					}
+					if(this.stepdownloaddataimage == this.step1downloaddataimage[0]+2)
+					{
+						try
+						{
+							this.stepdownloaddataimage++;
+							//this.stepdownloaddataimage++;
+					
+							
+							decryptText(this.reponseimage,this.sha).then((val)=> 
+							{
+								this.reponseimage = val;this.stepdownloaddataimage++;
+							}).catch((error)=>
+							{
+								this.stepdownloaddataimage = 0;
+								this.stepdownloaddataimagefinish = "finish_bad";
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{	
+							this.stepdownloaddataimage = 0;
+							this.stepdownloaddataimagefinish = "finish_bad";
+							this.a2();
+				
+						}
+					}
+					if(this.stepdownloaddataimage == this.step1downloaddataimage[0]+4)
+					{
+						if(this.reponseimage=="")
+						{
+							this.stepdownloaddataimage = 0;
+							this.stepdownloaddataimagefinish = "finish_bad";
+							this.a2();
+						}
+						else
+						{
+							this.reponseimagelines = this.reponseimage.split('\n').map(str => str.trim());
+							this.all_length_image += this.reponseimagelines.length/4;
+						
+							this.stepdownloaddataimage = 0;
+							this.stepdownloaddataimagefinish = "finish_good";
+							
+							freeview.__start.addanimateProgress(1);
+						}
+						
+					}
+			
+			
+			
+					
+				}
+				//=============================================================
+				//===================get this.url list all image==============================
+				if(this.stepdownloadalldataimage > 0)
+				{
+					if( this.stepdownloadalldataimage == 1)
+					{
+						this.stepdownloadalldataimage ++;
+						this.mdownloadalldataimage = 2;
+						this.step1downloadalldataimage[0] = this.mdownloadalldataimage; this.mdownloadalldataimage+=2;
+						this.step1downloadalldataimage[1] = this.mdownloadalldataimage; this.mdownloadalldataimage+=2;
+						this.step1downloadalldataimage[2] = this.mdownloadalldataimage; this.mdownloadalldataimage+=3;
+						this.step1downloadalldataimage[3] = this.mdownloadalldataimage; this.mdownloadalldataimage+=2;
+						this.step1downloadalldataimage[4] = this.mdownloadalldataimage; this.mdownloadalldataimage+=2;
+					}
+					if( this.stepdownloadalldataimage == this.step1downloadalldataimage[0] )
+					{
+						this.stepdownloadalldataimage ++;
+						if( this.imageallindex *4  >= this.reponseimagelines.length)
+						{
+							
+							this.stepdownloadalldataimage =0;
+							
+							this.test = Array(this.reponseimagelines.length/4).fill(0).map((_,i) => this.reponseimagelines[2+i*4]);
+							this.db.indsa1.put({ id: (this.iidd3findinstallation+1)%2, key_map: this.test , status : "worker", version : this.versionimage}).then(()=>
+							{
+								if( this.iidd3findinstallation == 0 )
+								{
+									this.db.inda1.clear().then(()=>
+									{
+										this.db.indsa1.put({ id: this.iidd3findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											this.stepdownloaddataimagefinishall  = "finish_good";
+										}).catch((error)=>
+										{
+											this.stepdownloadalldataimage =0;
+											this.stepdownloaddataimagefinishall  = "finish_bad";
+											this.a2();
+										});
+									}).catch((error)=>
+									{
+										this.stepdownloadalldataimage =0;
+										this.stepdownloaddataimagefinishall  = "finish_bad";
+										this.a2(); 
+									});
+								}
+								if( this.iidd3findinstallation == 1 )
+								{
+									this.db.inda2.clear().then(()=>
+									{
+										this.db.indsa1.put({ id: this.iidd3findinstallation , key_map: [] , status : "", version : 0}).then(()=>
+										{
+											this.stepdownloaddataimagefinishall  = "finish_good";
+										}).catch((error)=>
+										{
+											this.stepdownloadalldataimage =0;
+											this.stepdownloaddataimagefinishall  = "finish_bad";
+											this.a2();
+										});
+									}).catch((error)=>
+									{ 
+										this.stepdownloadalldataimage =0;
+										this.stepdownloaddataimagefinishall  = "finish_bad";
+										this.a2();
+									});
+								}
+								
+							}).catch((error)=>
+							{ 
+								this.stepdownloadalldataimage =0;
+								this.stepdownloaddataimagefinishall  = "finish_bad";
+								this.a2();
+							});
+						}
+						else
+						{
+							if( this.iidd3findinstallation == 0 )
+							{
+								
+								this.db.inda2.get(this.reponseimagelines[(this.imageallindex*4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+										if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+										{
+											this.imageallindex+=1;
+											
+                                            freeview.__start.addanimateProgress((1/this.all_length)*100);
+                                            this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+										}
+										else
+										{
+											
+											this.db.inda1.get(this.reponseimagelines[(this.imageallindex * 4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+									
+													if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+													{
+											
+														this.db.inda2.put({ id: vv.id, cv: vv.cv , version : vv.version }).then(()=>
+														{
+															this.imageallindex+=1;
+															
+															freeview.__start.addanimateProgress((1/this.all_length)*100);
+															this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+														}).catch((error)=>
+														{
+															this.stepdownloadalldataimage =0;
+															this.stepdownloaddataimagefinishall  = "finish_bad";
+															this.a2(); 
+														});
+													}
+													else
+													{
+										
+														this.stepdownloadalldataimage ++;
+													}
+												}
+												else
+												{
+											
+													this.stepdownloadalldataimage ++;
+												}
+								
+											}).catch((error)=>
+											{
+												this.stepdownloadalldataimage =0;
+												this.stepdownloaddataimagefinishall  = "finish_bad";
+												this.a2();
+											});
+											
+											
+										}
+									}
+									else 
+									{
+										this.db.inda1.get(this.reponseimagelines[(this.imageallindex * 4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+									
+												if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+												{
+											
+													this.db.inda2.put({ id: vv.id, cv: vv.cv , version : vv.version }).then(()=>
+													{
+														this.imageallindex+=1;
+														
+														freeview.__start.addanimateProgress((1/this.all_length)*100);
+														this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+													}).catch((error)=>
+													{
+														this.stepdownloadalldataimage =0;
+														this.stepdownloaddataimagefinishall  = "finish_bad";
+														this.a2(); 
+													});
+												}
+												else
+												{
+										
+													this.stepdownloadalldataimage ++;
+												}
+											}
+											else
+											{
+											
+												this.stepdownloadalldataimage ++;
+											}
+								
+										}).catch((error)=>
+										{
+											this.stepdownloadalldataimage =0;
+											this.stepdownloaddataimagefinishall  = "finish_bad";
+											this.a2();
+										});
+									}
+								
+								}).catch((error)=>
+								{
+									this.stepdownloadalldataimage =0;
+									this.stepdownloaddataimagefinishall  = "finish_bad";
+									this.a2();
+								});
+								
+								
+								
+							}
+							else
+							{
+								this.db.inda1.get(this.reponseimagelines[(this.imageallindex * 4)+2]).then((vv)=>
+								{
+									if(vv )
+									{
+									
+										if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+										{
+											this.imageallindex+=1;
+											
+											freeview.__start.addanimateProgress((1/this.all_length)*100);
+											this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+										}
+										else
+										{
+										
+											this.db.inda2.get(this.reponseimagelines[(this.imageallindex*4)+2]).then((vv)=>
+											{
+												if(vv )
+												{
+													if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+													{
+											
+														this.db.inda1.put({ id: vv.id, cv: vv.cv , version : vv.version }).then(()=>
+														{
+															this.imageallindex+=1;
+															
+															freeview.__start.addanimateProgress((1/this.all_length)*100);
+															this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+														}).catch((error)=>
+														{ 
+															this.stepdownloadalldataimage =0;
+															this.stepdownloaddataimagefinishall  = "finish_bad";
+															this.a2();
+														});
+													}
+													else
+													{
+														this.stepdownloadalldataimage ++;
+													}
+												}
+												else 
+												{
+													this.stepdownloadalldataimage ++;
+												}
+								
+											}).catch((error)=>
+											{
+												this.stepdownloadalldataimage =0;
+												this.stepdownloaddataimagefinishall  = "finish_bad";
+												this.a2();
+											});
+											
+										}
+									}
+									else
+									{
+											
+										this.db.inda2.get(this.reponseimagelines[(this.imageallindex*4)+2]).then((vv)=>
+										{
+											if(vv )
+											{
+												if( vv.version >= this.reponseimagelines[(this.imageallindex*4)+3] )
+												{
+											
+													this.db.inda1.put({ id: vv.id, cv: vv.cv , version : vv.version }).then(()=>
+													{
+														this.imageallindex+=1;
+														
+														freeview.__start.addanimateProgress((1/this.all_length)*100);
+														this.stepdownloadalldataimage = this.step1downloadalldataimage[0];
+													}).catch((error)=>
+													{ 
+														this.stepdownloadalldataimage =0;
+														this.stepdownloaddataimagefinishall  = "finish_bad";
+														this.a2();
+													});
+												}
+												else
+												{
+													this.stepdownloadalldataimage ++;
+												}
+											}
+											else 
+											{
+												this.stepdownloadalldataimage ++;
+											}
+								
+										}).catch((error)=>
+										{
+											this.stepdownloadalldataimage =0;
+											this.stepdownloaddataimagefinishall  = "finish_bad";
+											this.a2();
+										});
+										
+									}
+								
+								}).catch((error)=>
+								{
+									this.stepdownloadalldataimage =0;
+									this.stepdownloaddataimagefinishall  = "finish_bad";
+									this.a2();
+								});
+								
+								
+								
+								
+							}
+						}
+					}
+					if( this.stepdownloadalldataimage == this.step1downloadalldataimage[1] )
+					{
+						this.stepdownloadalldataimage ++;
+						this.midimageall = freeview.__download.addDownload( this.reponseimagelines[(this.imageallindex*4)+0]+this.iiimageall+this.reponseimagelines[(this.imageallindex*4)+1],"text","data");
+						
+					}
+					
+					if(this.stepdownloadalldataimage == this.step1downloadalldataimage[1]+1)
+					{
+						this.mmimageall = freeview.__download.retdttype(this.midimageall);
+						if(this.mmimageall.isfinish)
+						{
+							this.stepdownloadalldataimage ++;		
+							this.reponseimageallcoder = freeview.__download.retdata(this.midimageall);
+							freeview.__download.deletee(this.midimageall);
+							
+									
+						}
+						if(this.mmimageall.iserror2)
+						{
+							this.iiimageall++;
+							if(this.iiimageall>this.mmax)
+							{
+								this.iiimageall = this.mmin;
+							}
+							freeview.__download.mizeurl(this.midimageall,this.reponseimagelines[(this.imageallindex*4)+0]+this.iiimageall+this.reponseimagelines[(this.imageallindex*4)+1]);
+							freeview.__download.correcterror2(this.midimageall);
+						}
+						if(this.mmimageall.iserror1)
+						{
+							freeview.__download.correcterror1(this.midimageall);	    
+						}
+						if(this.mmimageall.iserror)
+						{
+							this.stepdownloadalldataimage =0;
+							this.stepdownloaddataimagefinishall  = "finish_bad";
+							this.a2();
+						}
+							
+					}
+					if(this.stepdownloadalldataimage == this.step1downloadalldataimage[2])
+					{
+						try
+						{
+							this.stepdownloadalldataimage++;
+							//this.stepdownloadalldataimage++;
+							//this.reponseimagealldecoder = this.reponseimageallcoder ;
+					
+							
+							decryptText(this.reponseimageallcoder,this.sha).then((val)=> 
+							{
+								this.this.reponseimagealldecoder = val;this.stepdownloadalldataimage++;
+							}).catch((error)=>
+							{
+								this.stepdownloadalldataimage = 0;
+								this.stepdownloaddataimagefinishall  = "finish_bad";
+								this.a2();
+							});
+							
+						}
+						catch(error)
+						{	
+							this.stepdownloadalldataimage = 0;
+							this.stepdownloaddataimagefinishall  = "finish_bad";
+							this.a2();
+				
+						}
+					}
+					if(this.stepdownloadalldataimage == this.step1downloadalldataimage[2]+2)
+					{
+						if(this.reponseimagealldecoder=="")
+						{
+							this.stepdownloadalldataimage = 0;
+							this.stepdownloaddataimagefinishall  = "finish_bad";
+							this.a2();
+						}
+						else
+						{
+						
+							this.stepdownloadalldataimage++;
+						}
+						
+					}
+					
+					
+					if(this.stepdownloadalldataimage == this.step1downloadalldataimage[3])
+					{
+						this.stepdownloadalldataimage ++;
+						if(this.iidd3findinstallation==0)
+						{
+							this.db.inda2.put({ id: this.reponseimagelines[(this.imageallindex*4)+2] , cv: this.this.reponseimagealldecoder , version :this.reponseimagelines[(this.imageallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldataimage ++;	
+							}).catch((error)=>
+							{
+								this.stepdownloadalldataimage =0;
+								this.stepdownloaddataimagefinishall  = "finish_bad";
+								this.a2();
+							});
+						}
+						if(this.iidd3findinstallation==1)
+						{
+							this.db.inda1.put({ id: this.reponseimagelines[(this.imageallindex*4)+2] , cv: this.this.reponseimagealldecoder , version :this.reponseimagelines[(this.imageallindex*4)+3] }).then(()=>
+							{
+								this.stepdownloadalldataimage ++;	
+							}).catch((error)=>
+							{
+								this.stepdownloadalldataimage =0;
+								this.stepdownloaddataimagefinishall  = "finish_bad";
+								this.a2();
+							});
+						}
+							
+						
+					}
+					
+					if(this.stepdownloadalldataimage == this.step1downloadalldataimage[4])
+					{
+						
+						this.imageallindex+=1;
+						
+						freeview.__start.addanimateProgress(32/this.all_length_image);
+						this.stepdownloadalldataimage = this.step1downloadalldataimage[0];	
+						
+					}
+				}
+				//=============================================================
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			}	
+*/
+
+
+
+
+
+
+
+
+            if(this.repeatinterval)
+		    {
+			    this.intarvalid = setTimeout(this.myrepeat,100);
+		    }
+	    };
+	}
+
+
+
+
+
+
+
+
+
+freeview.__start.addstart = function() 
+{
+    var id = Object.keys(start).length;
+	if(id == 0)
+	{
+		var starttaskk = new starttask();
+        start["id_" + id] = starttaskk;
+        return id;		
+	}
+    
+};
+};
