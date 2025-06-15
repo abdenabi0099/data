@@ -1,0 +1,174 @@
+if (typeof freeview.evtsExt__header__fx_loadassest !== "undefined") {
+  freeview.evtsExt__header__fx_loadassest.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__header__fx_loadassest = {};
+
+
+freeview.evtsExt__header__fx_loadassest.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_group_downloadpackage_variable_image", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_downloadpackage_variable_image", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_downloadpackage_variable_image", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_downloadpackage_variable_image", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_downloadpackage_variable_image", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_loadassest.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_loadassest.eventsList0(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")); }}}
+
+}
+
+
+};
+
+freeview.evtsExt__header__fx_loadassest.func = function(runtimeScene, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+},
+  _objectArraysMap: {
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("header"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("header"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+
+freeview.evtsExt__header__fx_loadassest.eventsList1(runtimeScene, eventsFunctionContext);
+
+
+return Number(eventsFunctionContext.returnValue) || 0;
+}
+
+freeview.evtsExt__header__fx_loadassest.registeredGdjsCallbacks = [];

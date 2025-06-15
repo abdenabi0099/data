@@ -1,0 +1,1559 @@
+freeview.file_95stockageCode = {};
+freeview.file_95stockageCode.localVariables = [];
+freeview.file_95stockageCode.GDclickObjects1= [];
+freeview.file_95stockageCode.GDclickObjects2= [];
+freeview.file_95stockageCode.GDclickObjects3= [];
+freeview.file_95stockageCode.GDclickObjects4= [];
+freeview.file_95stockageCode.GDclickObjects5= [];
+freeview.file_95stockageCode.GDclickObjects6= [];
+freeview.file_95stockageCode.GDNewBBTextObjects1= [];
+freeview.file_95stockageCode.GDNewBBTextObjects2= [];
+freeview.file_95stockageCode.GDNewBBTextObjects3= [];
+freeview.file_95stockageCode.GDNewBBTextObjects4= [];
+freeview.file_95stockageCode.GDNewBBTextObjects5= [];
+freeview.file_95stockageCode.GDNewBBTextObjects6= [];
+freeview.file_95stockageCode.GDbgs1Objects1= [];
+freeview.file_95stockageCode.GDbgs1Objects2= [];
+freeview.file_95stockageCode.GDbgs1Objects3= [];
+freeview.file_95stockageCode.GDbgs1Objects4= [];
+freeview.file_95stockageCode.GDbgs1Objects5= [];
+freeview.file_95stockageCode.GDbgs1Objects6= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects6= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects1= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects2= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects3= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5= [];
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects6= [];
+
+
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDclickObjects2Objects = Hashtable.newFrom({"click": freeview.file_95stockageCode.GDclickObjects2});
+freeview.file_95stockageCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(runtimeScene.getObjects("click"), freeview.file_95stockageCode.GDclickObjects2);
+{freeview.evtsExt__scene__dx_scene_screen_click.func(runtimeScene, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDclickObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__scene__dx_scene_screen_chacha.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDNewBBTextObjects1Objects = Hashtable.newFrom({"NewBBText": freeview.file_95stockageCode.GDNewBBTextObjects1});
+freeview.file_95stockageCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(runtimeScene.getObjects("NewBBText"), freeview.file_95stockageCode.GDNewBBTextObjects1);
+{freeview.evtsExt__scene__fx_scene_creatobject_text.func(runtimeScene, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDNewBBTextObjects1Objects, 0, 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+freeview.file_95stockageCode.eventsList0(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_global__gx_header.func(runtimeScene, "header", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList1(runtimeScene);
+}
+
+
+};freeview.file_95stockageCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(freeview.evtsExt__fx_variable__GlobalVariableExist.func(runtimeScene, "group_scenne_event_declarationfirst_variable_declaration2", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__Fillfreeview_number.func(runtimeScene, "group_scenne_event_declarationfirst_variable_declaration2", 0, 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList4 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__scene__fx_scene_screen_chacha_mise_a_jour_itarat_frames.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_initialize", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__header__gx_start.func(runtimeScene, freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1Objects2Objects = Hashtable.newFrom({"bgs1": freeview.file_95stockageCode.GDbgs1Objects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595subscripeObjects2Objects = Hashtable.newFrom({"bgs1_subscripe": freeview.file_95stockageCode.GDbgs1_9595subscripeObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595uploadObjects2Objects = Hashtable.newFrom({"bgs1_upload": freeview.file_95stockageCode.GDbgs1_9595uploadObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595backObjects2Objects = Hashtable.newFrom({"bgs1_search_back": freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595okObjects2Objects = Hashtable.newFrom({"bgs1_search_ok": freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackObjects2Objects = Hashtable.newFrom({"bgs1_search_txtback": freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects2Objects = Hashtable.newFrom({"bgs1_search_txt": freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackhideObjects2Objects = Hashtable.newFrom({"bgs1_search_txtbackhide": freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595shownowObjects2Objects = Hashtable.newFrom({"bgs1_shownow": freeview.file_95stockageCode.GDbgs1_9595shownowObjects2});
+freeview.file_95stockageCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1"), freeview.file_95stockageCode.GDbgs1Objects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_back"), freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_ok"), freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txt"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtback"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtbackhide"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_shownow"), freeview.file_95stockageCode.GDbgs1_9595shownowObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_subscripe"), freeview.file_95stockageCode.GDbgs1_9595subscripeObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_upload"), freeview.file_95stockageCode.GDbgs1_9595uploadObjects2);
+{freeview.evtsExt__header__gx_creatchacha.func(runtimeScene, freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")), freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1Objects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595subscripeObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595uploadObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595backObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595okObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackhideObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595shownowObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList7 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1"), freeview.file_95stockageCode.GDbgs1Objects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1Objects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1Objects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1"), freeview.file_95stockageCode.GDbgs1Objects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1Objects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1Objects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList8 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList8(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList10 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_back"), freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_back"), freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList10(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList12 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_search_back");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList11(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList13 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_ok"), freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_ok"), freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList14 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_search_ok");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList14(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList16 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtback"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtback"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList17 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList16(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList18 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_search_txtback");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList17(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList19 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_exist", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_string.func(runtimeScene, "sprite_bgs1_search_txt_group_text_variable_text", 0, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_text_variable_new", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_coloriage_variable_coloriage", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList20 = function(runtimeScene) {
+
+{
+
+
+freeview.file_95stockageCode.eventsList19(runtimeScene);
+}
+
+
+};freeview.file_95stockageCode.eventsList21 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_mizetext", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) != freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "extention_language_variable_version", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_mizetext", 0, freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_mizetext", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{runtimeScene.getScene().getVariables().get("x1").add(1);
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList20(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList22 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_bigtext", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x1").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList23 = function(runtimeScene) {
+
+{
+
+
+const repeatCount4 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex4 = 0;repeatIndex4 < repeatCount4;++repeatIndex4) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList22(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList24 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = freeview.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_event_timer_variable_reftext") >= 0.5;
+if (isConditionTrue_0) {
+{freeview.evtTools.runtimeScene.resetTimer(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_event_timer_variable_reftext");
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList23(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList25 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x1").add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects2Objects = Hashtable.newFrom({"bgs1_search_txt": freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDNewBBTextObjects2Objects = Hashtable.newFrom({"NewBBText": freeview.file_95stockageCode.GDNewBBTextObjects2});
+freeview.file_95stockageCode.eventsList26 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("x1").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_search_txt");
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_originaltext", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.file_95stockageCode.eventsList21(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_initialize_event_finishcreatfirst", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.file_95stockageCode.eventsList24(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+const repeatCount4 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex4 = 0;repeatIndex4 < repeatCount4;++repeatIndex4) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList25(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1")) != 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("NewBBText"), freeview.file_95stockageCode.GDNewBBTextObjects2);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txt"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2);
+{freeview.evtsExt__fx_global__fx_printftext.func(runtimeScene, "bgs1_search_txt", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects2Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDNewBBTextObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList27 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_subscripe"), freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_subscripe"), freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList28 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList27(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList29 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_subscripe");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList28(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList30 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_upload"), freeview.file_95stockageCode.GDbgs1_9595uploadObjects5);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595uploadObjects5.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595uploadObjects5[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_upload"), freeview.file_95stockageCode.GDbgs1_9595uploadObjects4);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595uploadObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595uploadObjects4[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList31 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList30(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList32 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_upload");
+}}
+
+}
+
+
+{
+
+
+const repeatCount3 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex3 = 0;repeatIndex3 < repeatCount3;++repeatIndex3) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList31(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList33 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_shownow"), freeview.file_95stockageCode.GDbgs1_9595shownowObjects4);
+{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595shownowObjects4.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595shownowObjects4[i].getBehavior("SpriteRecolorizer").ResetColor((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(runtimeScene.getObjects("bgs1_shownow"), freeview.file_95stockageCode.GDbgs1_9595shownowObjects3);
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_finish", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = freeview.file_95stockageCode.GDbgs1_9595shownowObjects3.length ;i < len;++i) {
+    freeview.file_95stockageCode.GDbgs1_9595shownowObjects3[i].getBehavior("SpriteRecolorizer").Recolorize("109;27;27", "165;82;82", freeview.randomInRange(0, 180), freeview.randomInRange(0, 100), freeview.randomInRange(0, 100), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList34 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList33(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").add(1);
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList35 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}{runtimeScene.getScene().getVariables().get("namee").setString("bgs1_shownow");
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.file_95stockageCode.eventsList34(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList36 = function(runtimeScene) {
+
+{
+
+
+freeview.file_95stockageCode.eventsList9(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList12(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList15(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList18(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList26(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList29(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList32(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList35(runtimeScene);
+}
+
+
+};freeview.file_95stockageCode.eventsList37 = function(runtimeScene) {
+
+{
+
+
+freeview.file_95stockageCode.eventsList5(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList6(runtimeScene);
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList36(runtimeScene);
+}
+
+
+};freeview.file_95stockageCode.eventsList38 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.file_95stockageCode.eventsList37(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1Objects1Objects = Hashtable.newFrom({"bgs1": freeview.file_95stockageCode.GDbgs1Objects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595backObjects1Objects = Hashtable.newFrom({"bgs1_search_back": freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595okObjects1Objects = Hashtable.newFrom({"bgs1_search_ok": freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackObjects1Objects = Hashtable.newFrom({"bgs1_search_txtback": freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects1Objects = Hashtable.newFrom({"bgs1_search_txt": freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackhideObjects1Objects = Hashtable.newFrom({"bgs1_search_txtbackhide": freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595subscripeObjects1Objects = Hashtable.newFrom({"bgs1_subscripe": freeview.file_95stockageCode.GDbgs1_9595subscripeObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595uploadObjects1Objects = Hashtable.newFrom({"bgs1_upload": freeview.file_95stockageCode.GDbgs1_9595uploadObjects1});
+freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595shownowObjects1Objects = Hashtable.newFrom({"bgs1_shownow": freeview.file_95stockageCode.GDbgs1_9595shownowObjects1});
+freeview.file_95stockageCode.eventsList39 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(runtimeScene.getObjects("bgs1"), freeview.file_95stockageCode.GDbgs1Objects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_back"), freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_ok"), freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txt"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtback"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_search_txtbackhide"), freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_shownow"), freeview.file_95stockageCode.GDbgs1_9595shownowObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_subscripe"), freeview.file_95stockageCode.GDbgs1_9595subscripeObjects1);
+freeview.copyArray(runtimeScene.getObjects("bgs1_upload"), freeview.file_95stockageCode.GDbgs1_9595uploadObjects1);
+{freeview.evtsExt__fx_global__fx_mizesprite.func(runtimeScene, "bgs1", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1Objects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_search_back", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595backObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_search_ok", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595okObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_search_txtback", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizetext_custom.func(runtimeScene, "bgs1_search_txt", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtObjects1Objects, freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595search_95959595txtbackhideObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_subscripe", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595subscripeObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_upload", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595uploadObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func(runtimeScene, "bgs1_shownow", freeview.file_95stockageCode.mapOfGDfreeview_9546file_959595stockageCode_9546GDbgs1_95959595shownowObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.file_95stockageCode.eventsList40 = function(runtimeScene) {
+
+{
+
+
+freeview.file_95stockageCode.eventsList3(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList4(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("groupee").setString("header");
+}}
+
+}
+
+
+{
+
+
+freeview.file_95stockageCode.eventsList38(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_screen_event_chacha_variable_reload", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_screen_event_chacha_variable_reload", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.file_95stockageCode.eventsList39(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};
+
+freeview.file_95stockageCode.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+freeview.file_95stockageCode.GDclickObjects1.length = 0;
+freeview.file_95stockageCode.GDclickObjects2.length = 0;
+freeview.file_95stockageCode.GDclickObjects3.length = 0;
+freeview.file_95stockageCode.GDclickObjects4.length = 0;
+freeview.file_95stockageCode.GDclickObjects5.length = 0;
+freeview.file_95stockageCode.GDclickObjects6.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects1.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects2.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects3.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects4.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects5.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects1.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects2.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects3.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects4.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects5.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects6.length = 0;
+
+freeview.file_95stockageCode.eventsList40(runtimeScene);
+freeview.file_95stockageCode.GDclickObjects1.length = 0;
+freeview.file_95stockageCode.GDclickObjects2.length = 0;
+freeview.file_95stockageCode.GDclickObjects3.length = 0;
+freeview.file_95stockageCode.GDclickObjects4.length = 0;
+freeview.file_95stockageCode.GDclickObjects5.length = 0;
+freeview.file_95stockageCode.GDclickObjects6.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects1.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects2.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects3.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects4.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects5.length = 0;
+freeview.file_95stockageCode.GDNewBBTextObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects1.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects2.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects3.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects4.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects5.length = 0;
+freeview.file_95stockageCode.GDbgs1Objects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595backObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595subscripeObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595shownowObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595uploadObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackhideObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595txtbackObjects6.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects1.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects2.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects3.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects4.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects5.length = 0;
+freeview.file_95stockageCode.GDbgs1_9595search_9595okObjects6.length = 0;
+
+
+return;
+
+}
+
+freeview['file_95stockageCode'] = freeview.file_95stockageCode;

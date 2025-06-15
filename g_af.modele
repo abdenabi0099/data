@@ -1,0 +1,1319 @@
+if (typeof freeview.evtsExt__header__gx_creatchacha !== "undefined") {
+  freeview.evtsExt__header__gx_creatchacha.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__header__gx_creatchacha = {};
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects7= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects1= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects2= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects3= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects5= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects6= [];
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects7= [];
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 1, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_finish", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_group_position_variable_positionxw", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_group_position_variable_positionyw", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_group_position_variable_positionxh", 0, 577, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_group_position_variable_positionyh", 0, 80, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1Objects4Objects = Hashtable.newFrom({"bgs1": freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList4 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList2(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList3(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1"), freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4);
+{freeview.evtsExt__fx_global__fx_creatsprite.func(runtimeScene, "bgs1", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1Objects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList6 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointX("searchw")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointY("searchw")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointX("searchh")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointY("searchh")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595backObjects5Objects = Hashtable.newFrom({"bgs1_search_back": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5});
+freeview.evtsExt__header__gx_creatchacha.eventsList7 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList5(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList6(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_back"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_search_back", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595backObjects5Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList8 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList9 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointX("subscripe_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointY("subscripe_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointX("subscripe_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6[0].getPointY("subscripe_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595subscripeObjects5Objects = Hashtable.newFrom({"bgs1_subscripe": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5});
+freeview.evtsExt__header__gx_creatchacha.eventsList10 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList8(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList9(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_subscripe"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_subscripe", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595subscripeObjects5Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList11 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList12 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5[0].getPointX("upload_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5[0].getPointY("upload_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5[0].getPointX("upload_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5[0].getPointY("upload_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595uploadObjects4Objects = Hashtable.newFrom({"bgs1_upload": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList13 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList11(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList12(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_upload"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects4);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_upload", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595uploadObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList14 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList7(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList10(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList13(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList15 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList16 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6[0].getPointX("ok_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6[0].getPointY("ok_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6[0].getPointX("ok_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6[0].getPointY("ok_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595okObjects5Objects = Hashtable.newFrom({"bgs1_search_ok": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects5});
+freeview.evtsExt__header__gx_creatchacha.eventsList17 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList15(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList16(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_ok"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects5);
+{freeview.evtsExt__fx_global__fx_creatsprite.func(runtimeScene, "bgs1_search_ok", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595okObjects5Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList18 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList19 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5[0].getPointX("text_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5[0].getPointY("text_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5[0].getPointX("text_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5[0].getPointY("text_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtbackObjects4Objects = Hashtable.newFrom({"bgs1_search_txtback": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList20 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList18(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList19(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_txtback"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_search_txtback", 1, 1, 1, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtbackObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList21 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList17(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList20(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList22 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList23 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_string.func(runtimeScene, "sprite_bgs1_search_txt_group_text_variable_text", 0, "hhhefrscq", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_text_variable_new", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList24 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList22(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList23(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList25 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtbackhide_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList26 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList25(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList27 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5[0].getPointX("text_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5[0].getPointY("text_w")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5[0].getPointX("text_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5[0].getPointY("text_h")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtObjects4Objects = Hashtable.newFrom({"bgs1_search_txt": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects4});
+freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtbackhideObjects4Objects = Hashtable.newFrom({"bgs1_search_txtbackhide": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList28 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList24(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList26(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList27(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_txt"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects4);
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_txtbackhide"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects4);
+{freeview.evtsExt__custom_creat_object__fx_creattext_custom.func(runtimeScene, "bgs1_search_txt", "bgs1_search_txtbackhide", 20, 1, 1, 1, 0, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtObjects4Objects, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595search_95959595txtbackhideObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList29 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_id_variable_id", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList30 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4, freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionxw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5[0].getPointX("ax")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionyw", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5[0].getPointY("ax")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionxh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5[0].getPointX("ah")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionyh", 0, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5[0].getPointY("ah")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595shownowObjects4Objects = Hashtable.newFrom({"bgs1_shownow": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList31 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList29(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList30(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_shownow"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_shownow", 1, 1, 0, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595shownowObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList32 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList31(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList33 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_id_variable_id", 1, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList34 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3, freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5);
+
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionxw", 1, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5[0].getPointX("ax")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionyw", 1, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5[0].getPointY("ax")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionxh", 1, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5[0].getPointX("ah")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_position_variable_positionyh", 1, (( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length === 0 ) ? 0 :freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5[0].getPointY("ah")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595shownowObjects4Objects = Hashtable.newFrom({"bgs1_shownow": freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4});
+freeview.evtsExt__header__gx_creatchacha.eventsList35 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList33(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList34(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_shownow"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4);
+{freeview.evtsExt__custom_creat_object__fx_creatsprite_custom.func(runtimeScene, "bgs1_shownow", 1, 1, 0, freeview.evtsExt__header__gx_creatchacha.mapOfGDfreeview_9546evtsExt_9595_9595header_9595_9595gx_9595creatchacha_9546GDbgs1_95959595shownowObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList36 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList35(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList37 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList4(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1"), freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4.length;i<l;++i) {
+    if ( freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4[i].getVariableNumber(freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4[k] = freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4[i];
+        ++k;
+    }
+}
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList14(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_back"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4.length;i<l;++i) {
+    if ( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4[i].getVariableNumber(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4[k] = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4[i];
+        ++k;
+    }
+}
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList21(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_search_txtback"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4.length;i<l;++i) {
+    if ( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4[i].getVariableNumber(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4[k] = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4[i];
+        ++k;
+    }
+}
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList28(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_subscripe"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4.length;i<l;++i) {
+    if ( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4[i].getVariableNumber(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4[k] = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4[i];
+        ++k;
+    }
+}
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList32(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("bgs1_upload"), freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3.length;i<l;++i) {
+    if ( freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3[i].getVariableNumber(freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3[k] = freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3[i];
+        ++k;
+    }
+}
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList36(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList38 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList37(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList39 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList38(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList40 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__header__fx_iscoloriage.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, 3, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList41 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList40(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList42 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList39(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList41(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 3);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_finish", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList43 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_step1", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > 0);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__gx_creatchacha.eventsList42(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList44 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_variable_finish", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha", 0, 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__Fillfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 1, 0, 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList45 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13611964);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "group_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("groupee")) + "_group_creatchacha_event_initialize", 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList43(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList44(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__gx_creatchacha.eventsList46 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("groupee").setString((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("groupee") : ""));
+}}
+
+}
+
+
+{
+
+
+freeview.evtsExt__header__gx_creatchacha.eventsList45(runtimeScene, eventsFunctionContext);
+}
+
+
+};
+
+freeview.evtsExt__header__gx_creatchacha.func = function(runtimeScene, groupee, bgs1, bgs1_subscripe, bgs1_upload, bgs1_search_back, bgs1_search_ok, bgs1_search_txtback, bgs1_search_txt, bgs1_search_txtbackhide, bgs1_shownow, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+"bgs1": bgs1
+, "bgs1_subscripe": bgs1_subscripe
+, "bgs1_upload": bgs1_upload
+, "bgs1_search_back": bgs1_search_back
+, "bgs1_search_ok": bgs1_search_ok
+, "bgs1_search_txtback": bgs1_search_txtback
+, "bgs1_search_txt": bgs1_search_txt
+, "bgs1_search_txtbackhide": bgs1_search_txtbackhide
+, "bgs1_shownow": bgs1_shownow
+},
+  _objectArraysMap: {
+"bgs1": freeview.objectsListsToArray(bgs1)
+, "bgs1_subscripe": freeview.objectsListsToArray(bgs1_subscripe)
+, "bgs1_upload": freeview.objectsListsToArray(bgs1_upload)
+, "bgs1_search_back": freeview.objectsListsToArray(bgs1_search_back)
+, "bgs1_search_ok": freeview.objectsListsToArray(bgs1_search_ok)
+, "bgs1_search_txtback": freeview.objectsListsToArray(bgs1_search_txtback)
+, "bgs1_search_txt": freeview.objectsListsToArray(bgs1_search_txt)
+, "bgs1_search_txtbackhide": freeview.objectsListsToArray(bgs1_search_txtbackhide)
+, "bgs1_shownow": freeview.objectsListsToArray(bgs1_shownow)
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("header"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("header"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+if (argName === "groupee") return groupee;
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects7.length = 0;
+
+freeview.evtsExt__header__gx_creatchacha.eventsList46(runtimeScene, eventsFunctionContext);
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1Objects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595subscripeObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595uploadObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595backObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595okObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595search_9595txtbackhideObjects7.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects1.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects2.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects3.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects4.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects5.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects6.length = 0;
+freeview.evtsExt__header__gx_creatchacha.GDbgs1_9595shownowObjects7.length = 0;
+
+
+return;
+}
+
+freeview.evtsExt__header__gx_creatchacha.registeredGdjsCallbacks = [];

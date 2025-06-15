@@ -1,0 +1,544 @@
+if (typeof freeview.evtsExt__header__dx_variable !== "undefined") {
+  freeview.evtsExt__header__dx_variable.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__header__dx_variable = {};
+
+
+freeview.evtsExt__header__dx_variable.userFunc0xd3ab78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+"use strict";
+//====================================================================
+	if (!freeview.__header) 
+	{
+		freeview.__header = freeview.__header || {};
+	}
+//====================================================================
+};
+freeview.evtsExt__header__dx_variable.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.userFunc0xd3ab78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(freeview.evtsExt__fx_variable__GlobalVariableExist.func(runtimeScene, "group_header_group_declarationfunction", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__Fillfreeview_number.func(runtimeScene, "group_header_group_declarationfunction", 0, 0, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.evtsExt__header__dx_variable.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_search_back", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_search_ok", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_search_txtback", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_subscripe", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_shownow", 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_sprite.func(runtimeScene, "bgs1_upload", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_global__dx_declaration_text.func(runtimeScene, "bgs1_search_txt", "bgs1_search_txtbackhide", 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__header__fx_map_layer.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList4 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList2(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList3(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList4(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList6 = function(runtimeScene, eventsFunctionContext) {
+
+};freeview.evtsExt__header__dx_variable.userFunc0xc04fc8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+"use strict";
+
+//load image server
+//=========================================
+const dbTest = returnprincipaldb();
+let iddTest = 0;
+const configserver = {
+  imageSources: {
+    0: dbTest.inda1,
+    1: dbTest.inda2
+  }
+};
+//=========================================
+
+
+
+
+
+
+//client
+//=========================================
+const imageCache = {};
+//=========================================
+
+
+let kks1 = runtimeScene.getGame().getVariables().get("bgs1").getAllChildrenArray();
+let kks2 = runtimeScene.getGame().getVariables().get("bgs1_search_ok").getAllChildrenArray();
+let kks3 = runtimeScene.getGame().getVariables().get("bgs1_subscripe").getAllChildrenArray();
+let kks4 = runtimeScene.getGame().getVariables().get("bgs1_shownow").getAllChildrenArray();
+let kks5 = runtimeScene.getGame().getVariables().get("bgs1_upload").getAllChildrenArray();
+
+
+
+const createNumberVariable = (value) => new freeview.Variable({ type: "number", value });
+
+//=========================================
+const initialize = () => {
+  dbTest.indsa1.get(0).then((result = {}) => {
+    const { status } = result;
+    iddTest = status === "worker" ? 0 : 1;
+
+    requestAnimationFrame(() => {
+      Promise.all([
+        freeview.__header.loadImage("f_aa.modele", imageCache, 'bgs1'),
+        freeview.__header.loadImage("f_ab.modele", imageCache, 'bgs1_search_ok'),
+		freeview.__header.loadImage("f_ac.modele", imageCache, 'bgs1_subscripe'),
+		freeview.__header.loadImage("f_ad.modele", imageCache, 'bgs1_shownow'),
+		freeview.__header.loadImage("f_ae.modele", imageCache, 'bgs1_upload')
+      ])
+      .then(([a, z,e,r,t]) => {
+        if (a)
+		{
+			kks1[0] = new freeview.Variable({type: "number", value:1});
+		}
+        if (z)
+		{
+			kks2[0] = new freeview.Variable({type: "number", value:1});
+		}
+		if (e)
+		{
+			kks3[0] = new freeview.Variable({type: "number", value:1});
+		}
+		if (r)
+		{
+			kks4[0] = new freeview.Variable({type: "number", value:1});
+		}
+		if (t)
+		{
+			kks5[0] = new freeview.Variable({type: "number", value:1});
+		}
+      })
+      .catch((error) => {
+        console.error("خطأ أثناء تحميل البيانات:", error);
+      });
+    });
+  }).catch((error) => {
+    console.error("خطأ أثناء جلب البيانات:", error);
+  });
+};
+
+
+//=========================================
+requestAnimationFrame(() => {
+  initialize();
+});
+
+//=========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const loadImage = async (name, cache, type = 'image') => {
+  try {
+    if (cache[name]) {
+      return true;
+    }
+
+    const source = configserver.imageSources[iddTest];
+    const { cv: imageData } = await source.get(name) || {};
+
+    if (!imageData) {
+      return false;
+    }
+
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => {
+
+
+        cache[name] = image;
+
+
+
+
+        resolve(true);
+      };
+      image.onerror = () => resolve(false);
+      image.src = imageData;
+    });
+
+  } catch (error) {
+    console.error("خطأ في تحميل الصورة:", error);
+    return false;
+  }
+};
+
+
+
+
+
+
+freeview.__header.coloriageproject_test =  function(name,sourceContext)
+{  
+  sourceContext.drawImage(imageCache[name], 0, 0);
+  return sourceContext; 
+	
+}	
+	
+	
+	
+	
+	
+
+
+
+
+};
+freeview.evtsExt__header__dx_variable.eventsList7 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.userFunc0xc04fc8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.userFunc0xbde2e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+"use strict";
+let startstr = {
+    "en": ["Downloading resource..."],
+    "ar": ["تحميل المورد..."],
+    "fr": ["Téléchargement de la ressource..."],
+    "zh": ["下载资源中..."],
+    "fa": ["در حال دانلود منبع..."]
+};
+freeview.__header.getstartstr = function(selectedLanguage,index) 
+{ 
+    return startstr[selectedLanguage][index]; 
+}
+};
+freeview.evtsExt__header__dx_variable.eventsList8 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.userFunc0xbde2e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList9 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtTools.runtimeScene.resetTimer(runtimeScene, "group_header_event_timer_variable_reftext");
+}}
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList10 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList7(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList8(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList9(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList11 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList5(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList6(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList10(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};freeview.evtsExt__header__dx_variable.eventsList12 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+freeview.evtsExt__header__dx_variable.eventsList11(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};
+
+freeview.evtsExt__header__dx_variable.func = function(runtimeScene, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+},
+  _objectArraysMap: {
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("header"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("header"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+
+freeview.evtsExt__header__dx_variable.eventsList12(runtimeScene, eventsFunctionContext);
+
+
+return;
+}
+
+freeview.evtsExt__header__dx_variable.registeredGdjsCallbacks = [];

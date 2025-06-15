@@ -1,0 +1,267 @@
+if (typeof freeview.evtsExt__custom_creat_object__fx_mizesprite_custom !== "undefined") {
+  freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom = {};
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects1= [];
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects2= [];
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3= [];
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects4= [];
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects5= [];
+
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionxw", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{runtimeScene.getScene().getVariables().get("y").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionyw", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{runtimeScene.getScene().getVariables().get("x1").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionxh", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")));
+}{runtimeScene.getScene().getVariables().get("y1").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionyh", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595mizesprite_9595custom_9546GDobjObjects3Objects = Hashtable.newFrom({"obj": freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3});
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("obj"), freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3.length;i<l;++i) {
+    if ( freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3[i].getVariableNumber(freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3[i].getVariables().get("id")) == freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")) ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3[k] = freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3[i];
+        ++k;
+    }
+}
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3.length = k;
+if (isConditionTrue_0) {
+/* Reuse freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3 */
+{freeview.evtsExt__scene__fx_scene_creatobject_mize.func(runtimeScene, freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595mizesprite_9595custom_9546GDobjObjects3Objects, freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1")), (freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y1")) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y"))), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList0(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList2(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList4 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList3(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("namee").setString((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("sprite") : ""));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList4(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.func = function(runtimeScene, sprite, obj, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+"obj": obj
+},
+  _objectArraysMap: {
+"obj": freeview.objectsListsToArray(obj)
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("custom_creat_object"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("custom_creat_object"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+if (argName === "sprite") return sprite;
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects5.length = 0;
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.eventsList5(runtimeScene, eventsFunctionContext);
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.GDobjObjects5.length = 0;
+
+
+return;
+}
+
+freeview.evtsExt__custom_creat_object__fx_mizesprite_custom.registeredGdjsCallbacks = [];

@@ -1,0 +1,769 @@
+if (typeof freeview.evtsExt__header__fx_iscoloriage !== "undefined") {
+  freeview.evtsExt__header__fx_iscoloriage.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__header__fx_iscoloriage = {};
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList1(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList4 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList3(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_back_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList4(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList6 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList7 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList6(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList8 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_ok_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList7(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList9 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList10 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList9(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList11 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txtback_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList10(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList12 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList13 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList12(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList14 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_search_txt_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList13(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList15 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList16 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList15(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList17 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_subscripe_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList16(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList18 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList19 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList18(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList20 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_shownow_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList19(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList21 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList22 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__header__fx_iscoloriage.eventsList21(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList23 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("xx").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_bgs1_upload_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__header__fx_iscoloriage.eventsList22(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};freeview.evtsExt__header__fx_iscoloriage.eventsList24 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("yy").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList2(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList5(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList8(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList11(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList14(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList17(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList20(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList23(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")); }}}
+
+}
+
+
+};
+
+freeview.evtsExt__header__fx_iscoloriage.func = function(runtimeScene, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+},
+  _objectArraysMap: {
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("header"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("header"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+
+freeview.evtsExt__header__fx_iscoloriage.eventsList24(runtimeScene, eventsFunctionContext);
+
+
+return Number(eventsFunctionContext.returnValue) || 0;
+}
+
+freeview.evtsExt__header__fx_iscoloriage.registeredGdjsCallbacks = [];

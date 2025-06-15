@@ -1,0 +1,640 @@
+if (typeof freeview.evtsExt__custom_creat_object__fx_printftext_custom !== "undefined") {
+  freeview.evtsExt__custom_creat_object__fx_printftext_custom.registeredGdjsCallbacks.forEach(callback =>
+    freeview._unregisterCallback(callback)
+  );
+}
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom = {};
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects1= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects2= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects5= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects6= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects7= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects1= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects2= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects6= [];
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects7= [];
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_string.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_text", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == "0");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").setNumber(1);
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_msgexiste", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")) == 0);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_msgexiste", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("x").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__scene__fx_scene_text_length.func(runtimeScene, freeview.evtsExt__fx_variable__returnfreeview_string.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_text", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_lengthtxt", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("x").setNumber(1);
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_bigtext", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")) == 0);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_bigtext", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList0(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_new", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_new", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList2(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList4 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4);
+
+{for(var i = 0, len = freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4.length ;i < len;++i) {
+    freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4[i].setBBText(freeview.evtsExt__scene__fx_scene_text_trimtext.func(runtimeScene, freeview.evtsExt__fx_variable__returnfreeview_string.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_text", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_lengthtxt", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDNewBBTextObjects4Objects = Hashtable.newFrom({"NewBBText": freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4});
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects4Objects = Hashtable.newFrom({"txt": freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4});
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList6 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4);
+
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4);
+
+{freeview.evtsExt__fx_RenderToSprite__fx_RenderToSprite.func(runtimeScene, freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDNewBBTextObjects4Objects, freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects4Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects5Objects = Hashtable.newFrom({"txt": freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects5});
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects4Objects = Hashtable.newFrom({"txt": freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4});
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList7 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5);
+
+{runtimeScene.getScene().getVariables().get("x").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionxw", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{runtimeScene.getScene().getVariables().get("y").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionyw", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{runtimeScene.getScene().getVariables().get("x1").setNumber((((freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionxw", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x"))) / freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_lengthtxt", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * freeview.evtsExt__scene__fx_scene_text_length.func(runtimeScene, (( freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5.length === 0 ) ? "" :freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5[0].getBBText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{runtimeScene.getScene().getVariables().get("y1").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionyh", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y")));
+}{runtimeScene.getScene().getVariables().get("xx").setNumber(freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_position_variable_positionxh", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_percent_mize", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects5);
+
+{freeview.evtsExt__scene__fx_scene_creatobject_mize.func(runtimeScene, freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects5Objects, freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y1")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_percent_mize", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+freeview.copyArray(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3, freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4);
+
+{freeview.evtsExt__scene__fx_scene_creatobject_mize.func(runtimeScene, freeview.evtsExt__custom_creat_object__fx_printftext_custom.mapOfGDfreeview_9546evtsExt_9595_9595custom_9595creat_9595object_9595_9595fx_9595printftext_9595custom_9546GDtxtObjects4Objects, freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x")) + ((freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")) - freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1"))) / 2), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("y1")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList8 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) >= freeview.evtsExt__scene__fx_scene_text_length.func(runtimeScene, freeview.evtsExt__fx_variable__returnfreeview_string.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_text", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_i", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList9 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_percent", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("x1")) / freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("xx")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList10 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_iscoloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList11 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList3(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList4(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList5(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList6(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList7(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList8(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList9(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList10(runtimeScene, eventsFunctionContext);
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList12 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("NewBBText"), freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3.length;i<l;++i) {
+    if ( freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3[i].getVariableNumber(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3[i].getVariables().get("id")) == 0 ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3[k] = freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3[i];
+        ++k;
+    }
+}
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList11(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList13 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+freeview.copyArray(eventsFunctionContext.getObjects("txt"), freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3.length;i<l;++i) {
+    if ( freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3[i].getVariableNumber(freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3[i].getVariables().get("id")) == freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")) ) {
+        isConditionTrue_0 = true;
+        freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3[k] = freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3[i];
+        ++k;
+    }
+}
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList12(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList14 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+{isConditionTrue_1 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_text_variable_bigtext", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+{isConditionTrue_1 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
+if (isConditionTrue_0) {
+{freeview.evtsExt__fx_variable__InsertAtfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_coloriage_variable_coloriage", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList13(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList15 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_exist", freeview.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("yy")), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList14(runtimeScene, eventsFunctionContext);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("yy").add(1);
+}}
+
+}
+
+
+};freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList16 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("namee").setString((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("sprite") : ""));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().get("yy").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+const repeatCount2 = freeview.evtsExt__fx_variable__returnfreeview_number.func(runtimeScene, "sprite_" + freeview.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("namee")) + "_group_exist_variable_number_all", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
+
+let isConditionTrue_0 = false;
+if (true)
+{
+
+{ //Subevents: 
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList15(runtimeScene, eventsFunctionContext);} //Subevents end.
+}
+}
+
+}
+
+
+};
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.func = function(runtimeScene, sprite, txt, NewBBText, parentEventsFunctionContext) {
+var eventsFunctionContext = {
+  _objectsMap: {
+"txt": txt
+, "NewBBText": NewBBText
+},
+  _objectArraysMap: {
+"txt": freeview.objectsListsToArray(txt)
+, "NewBBText": freeview.objectsListsToArray(NewBBText)
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("custom_creat_object"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("custom_creat_object"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+if (argName === "sprite") return sprite;
+    return "";
+  },
+  getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
+};
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects5.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects6.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects7.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects6.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects7.length = 0;
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.eventsList16(runtimeScene, eventsFunctionContext);
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects5.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects6.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDtxtObjects7.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects1.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects2.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects3.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects4.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects5.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects6.length = 0;
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.GDNewBBTextObjects7.length = 0;
+
+
+return;
+}
+
+freeview.evtsExt__custom_creat_object__fx_printftext_custom.registeredGdjsCallbacks = [];
